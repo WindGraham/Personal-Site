@@ -1,0 +1,11 @@
+- title: "示例论文标题"
+  authors: "作者一, 作者二"
+  venue: "会议或期刊名称"
+  year: 2024
+  doi: "10.1000/xyz123"
+  pdf: "#"
+
+- title: "另一篇论文"
+  authors: "作者一"
+  venue: "Journal of Examples"
+  year: 2023

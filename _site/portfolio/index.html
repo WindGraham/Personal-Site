@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>作品集 · Wind Graham</title>
+  <meta name="description" content="个人网站 - 占位摘要，替换为你的简介">
+
+  <!-- SEO / OpenGraph -->
+  <meta property="og:title" content="作品集">
+  <meta property="og:description" content="个人网站 - 占位摘要，替换为你的简介">
+  <meta property="og:url" content="https://www.windgraham.art/portfolio/">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fira+Code&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+  <link rel="icon" type="image/jpeg" href="/头像.jpg">
+
+  <script>
+    (function() {
+      try {
+        var saved = window.localStorage && window.localStorage.getItem('wind-theme');
+        if (!saved) return;
+        document.documentElement.classList.add('js-theme-init');
+        document.addEventListener('DOMContentLoaded', function () {
+          if (document.body) {
+            document.body.setAttribute('data-theme', saved);
+          }
+        });
+      } catch (e) {}
+    })();
+  </script>
+</head>
+
+  <body data-theme="light">
+    <header class="site-header">
+  <div class="container">
+    <div class="header-left">
+      <a class="site-title" href="/">Wind Graham</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="切换明暗模式"></button>
+    </div>
+    <button id="nav-toggle" aria-label="切换导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <ul>
+        
+        <li>
+          <a href="/" >
+            首页
+          </a>
+        </li>
+        
+        <li>
+          <a href="/about/" >
+            关于
+          </a>
+        </li>
+        
+        <li>
+          <a href="/portfolio/" class="active">
+            项目
+          </a>
+        </li>
+        
+        <li>
+          <a href="/posts/" >
+            博客
+          </a>
+        </li>
+        
+        <li>
+          <a href="/friends/" >
+            友链
+          </a>
+        </li>
+        
+        <li>
+          <a href="/contact/" >
+            联系
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main id="content">
+      <div class="container">
+<article class="page">
+
+  <header class="page-header">
+    <h1 class="page-title">作品集</h1>
+  </header>
+
+  <div class="page-content">
+    <p class="intro-text">这里展示了我参与设计和开发的部分项目，涵盖了 Web 应用、移动端界面以及开源工具。</p>
+
+<div class="portfolio-grid">
+  
+  <article class="project-card" style="--card-bg: linear-gradient(135deg, #22c55e 0%, #0ea5e9 45%, #6366f1 100%)">
+    <div class="card-content">
+      <h3><a href="https://example.com/gomoku">五子棋 Gomoku</a></h3>
+      <p>一个简单的五子棋网页小游戏，用来打发无意义的空档。</p>
+      <div class="tags">
+        
+        <span>Game</span>
+        
+        <span>Web</span>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="project-card" style="--card-bg: linear-gradient(135deg, #22d3ee 0%, #6366f1 45%, #a855f7 100%)">
+    <div class="card-content">
+      <h3><a href="https://github.com/WindGraham/AgentFromPku">AgentFromPku</a></h3>
+      <p>以北大校园为舞台的情景游览游戏，可以和虚拟人物在不同场景里对话。</p>
+      <div class="tags">
+        
+        <span>Interactive Fiction</span>
+        
+        <span>AI</span>
+        
+      </div>
+    </div>
+  </article>
+  
+  <article class="project-card" style="--card-bg: linear-gradient(135deg, #fb923c 0%, #f97316 40%, #facc15 100%)">
+    <div class="card-content">
+      <h3><a href="https://example.com/pkumapvtour">PkumapVtour</a></h3>
+      <p>北大校园的虚拟漫游网站，内置 AI 导览和若干场景交互。</p>
+      <div class="tags">
+        
+        <span>Web</span>
+        
+        <span>Virtual Tour</span>
+        
+        <span>AI</span>
+        
+      </div>
+    </div>
+  </article>
+  
+</div>
+
+  </div>
+
+</article>
+</div>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2025 <strong>Wind Graham</strong>. Designed with <span style="color: #ef4444;">❤</span></p>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/WindGraham">GitHub</a></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="/feed.xml">RSS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/js/main.js" type="module"></script>
+  </body>
+</html>

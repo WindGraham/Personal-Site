@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>所有文章 · Wind Graham</title>
+  <meta name="description" content="个人网站 - 占位摘要，替换为你的简介">
+
+  <!-- SEO / OpenGraph -->
+  <meta property="og:title" content="所有文章">
+  <meta property="og:description" content="个人网站 - 占位摘要，替换为你的简介">
+  <meta property="og:url" content="https://www.windgraham.art/posts/">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fira+Code&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+  <link rel="icon" type="image/jpeg" href="/头像.jpg">
+
+  <script>
+    (function() {
+      try {
+        var saved = window.localStorage && window.localStorage.getItem('wind-theme');
+        if (!saved) return;
+        document.documentElement.classList.add('js-theme-init');
+        document.addEventListener('DOMContentLoaded', function () {
+          if (document.body) {
+            document.body.setAttribute('data-theme', saved);
+          }
+        });
+      } catch (e) {}
+    })();
+  </script>
+</head>
+
+  <body data-theme="light">
+    <header class="site-header">
+  <div class="container">
+    <div class="header-left">
+      <a class="site-title" href="/">Wind Graham</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="切换明暗模式"></button>
+    </div>
+    <button id="nav-toggle" aria-label="切换导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <ul>
+        
+        <li>
+          <a href="/" >
+            首页
+          </a>
+        </li>
+        
+        <li>
+          <a href="/about/" >
+            关于
+          </a>
+        </li>
+        
+        <li>
+          <a href="/portfolio/" >
+            项目
+          </a>
+        </li>
+        
+        <li>
+          <a href="/posts/" class="active">
+            博客
+          </a>
+        </li>
+        
+        <li>
+          <a href="/friends/" >
+            友链
+          </a>
+        </li>
+        
+        <li>
+          <a href="/contact/" >
+            联系
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main id="content">
+      <section class="posts-list container">
+  <div class="section-header">
+    <h1>所有文章</h1>
+  </div>
+
+  <div class="post-grid">
+    
+    <article class="post-card">
+      <div class="post-meta">2025-11-13</div>
+      <h3><a href="/2025/11/13/%E4%B8%BA%E6%88%91%E5%BC%B9%E7%90%B4%E7%9A%84%E5%A5%B3%E8%80%81%E5%B8%88/">为我弹琴的女老师</a></h3>
+      <p>当年为我弹琴的那位老师，如果有孩子，估计也要上大学了。
+</p>
+      <a href="/2025/11/13/%E4%B8%BA%E6%88%91%E5%BC%B9%E7%90%B4%E7%9A%84%E5%A5%B3%E8%80%81%E5%B8%88/" class="read-more">阅读全文</a>
+    </article>
+    
+    <article class="post-card">
+      <div class="post-meta">2025-10-10</div>
+      <h3><a href="/2025/10/10/%E4%BA%BA%E5%B0%91%E7%9A%84%E5%9C%B0%E6%96%B9%E6%89%8D%E6%9C%89%E9%A3%8E%E6%99%AF/">人少的地方才有风景</a></h3>
+      <p>国庆体验了两次错峰出游。
+</p>
+      <a href="/2025/10/10/%E4%BA%BA%E5%B0%91%E7%9A%84%E5%9C%B0%E6%96%B9%E6%89%8D%E6%9C%89%E9%A3%8E%E6%99%AF/" class="read-more">阅读全文</a>
+    </article>
+    
+  </div>
+
+  <div class="pagination">
+    
+
+    <span class="page-number">第 1 / 1 页</span>
+
+    
+  </div>
+</section>
+
+<section class="posts-comments container">
+  <div class="section-header">
+    <h2>留言板</h2>
+  </div>
+  <div id="comments-list" class="comments-list"></div>
+  <form class="comments-form" novalidate>
+    <div class="comments-row">
+      <div class="comments-col comments-col-left">
+        <div class="form-group">
+          <label for="c-name">昵称</label>
+          <input type="text" id="c-name" name="name" placeholder="怎么称呼你">
+        </div>
+        <div class="form-group">
+          <label for="c-email">邮箱（可选）</label>
+          <input type="email" id="c-email" name="email" placeholder="方便回信的话可以留一个">
+        </div>
+      </div>
+      <div class="comments-col comments-col-middle">
+        <div class="form-group">
+          <label for="c-message">想说的话</label>
+          <textarea id="c-message" name="message" rows="4" placeholder="今天在想什么？" required></textarea>
+        </div>
+      </div>
+      <div class="comments-col comments-col-right">
+        <button type="submit" class="btn">发送</button>
+      </div>
+    </div>
+  </form>
+</section>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2025 <strong>Wind Graham</strong>. Designed with <span style="color: #ef4444;">❤</span></p>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/WindGraham">GitHub</a></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="/feed.xml">RSS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/js/main.js" type="module"></script>
+  </body>
+</html>

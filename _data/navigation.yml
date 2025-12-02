@@ -1,0 +1,12 @@
+- label: 首页
+  url: /
+- label: 关于
+  url: /about/
+- label: 项目
+  url: /portfolio/
+- label: 博客
+  url: /posts/
+- label: 友链
+  url: /friends/
+- label: 联系
+  url: /contact/

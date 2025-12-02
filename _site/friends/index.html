@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>友链 · Wind Graham</title>
+  <meta name="description" content="个人网站 - 占位摘要，替换为你的简介">
+
+  <!-- SEO / OpenGraph -->
+  <meta property="og:title" content="友链">
+  <meta property="og:description" content="个人网站 - 占位摘要，替换为你的简介">
+  <meta property="og:url" content="https://www.windgraham.art/friends/">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fira+Code&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+  <link rel="icon" type="image/jpeg" href="/头像.jpg">
+
+  <script>
+    (function() {
+      try {
+        var saved = window.localStorage && window.localStorage.getItem('wind-theme');
+        if (!saved) return;
+        document.documentElement.classList.add('js-theme-init');
+        document.addEventListener('DOMContentLoaded', function () {
+          if (document.body) {
+            document.body.setAttribute('data-theme', saved);
+          }
+        });
+      } catch (e) {}
+    })();
+  </script>
+</head>
+
+  <body data-theme="light">
+    <header class="site-header">
+  <div class="container">
+    <div class="header-left">
+      <a class="site-title" href="/">Wind Graham</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="切换明暗模式"></button>
+    </div>
+    <button id="nav-toggle" aria-label="切换导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <ul>
+        
+        <li>
+          <a href="/" >
+            首页
+          </a>
+        </li>
+        
+        <li>
+          <a href="/about/" >
+            关于
+          </a>
+        </li>
+        
+        <li>
+          <a href="/portfolio/" >
+            项目
+          </a>
+        </li>
+        
+        <li>
+          <a href="/posts/" >
+            博客
+          </a>
+        </li>
+        
+        <li>
+          <a href="/friends/" class="active">
+            友链
+          </a>
+        </li>
+        
+        <li>
+          <a href="/contact/" >
+            联系
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main id="content">
+      <div class="container">
+<article class="page">
+
+  <header class="page-header">
+    <h1 class="page-title">友链</h1>
+  </header>
+
+  <div class="page-content">
+    <div class="friends-page container">
+  <p class="intro-text" style="margin-top: 2rem;">
+    这里是一些朋友的站点。风格各异，彼此独立。
+  </p>
+
+  <div class="friends-grid">
+    <!-- 示例：后续可以按需增删 -->
+    <a class="friend-card" href="https://elty-nov.github.io" target="_blank" rel="noopener">
+      <img class="friend-avatar" src="https://elty-nov.github.io/images/sakiko.jpg" alt="Elty Nov" />
+      <div class="friend-body">
+        <div class="friend-name">Elty Nov</div>
+        <p class="friend-desc">All day all night in my room</p>
+      </div>
+    </a>
+    <a class="friend-card" href="https://iculizhi.github.io/" target="_blank" rel="noopener">
+      <img class="friend-avatar" src="https://iculizhi.github.io/images/xj.jpg" alt="Jing Xu's Site" />
+      <div class="friend-body">
+        <div class="friend-name">Jing Xu's Site</div>
+        <p class="friend-desc">上士闻道, 勤而行之.</p>
+      </div>
+    </a>
+    <a class="friend-card" href="https://arthals.ink/" target="_blank" rel="noopener">
+      <img class="friend-avatar" src="https://cdn.arthals.ink/Arthals.png" alt="Arthals' ink" />
+      <div class="friend-body">
+        <div class="friend-name">Arthals' ink</div>
+        <p class="friend-desc">
+  所见高山远木，阔云流风；<br />
+  所幸岁月盈余，了无拘束
+</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  </div>
+
+</article>
+</div>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2025 <strong>Wind Graham</strong>. Designed with <span style="color: #ef4444;">❤</span></p>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/WindGraham">GitHub</a></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="/feed.xml">RSS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/js/main.js" type="module"></script>
+  </body>
+</html>

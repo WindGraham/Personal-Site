@@ -1,0 +1,6 @@
+default:
+  name: "这是你的名字"
+  affiliation: "这是你的机构或公司"
+  bio: "在这里填写你的简短个人介绍。"
+  github: "你的 GitHub 用户名"
+  twitter: "你的 Twitter/X 用户名（可选）"

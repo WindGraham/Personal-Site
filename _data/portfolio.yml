@@ -1,0 +1,18 @@
+---
+- title: "五子棋 Gomoku"
+  url: "https://example.com/gomoku"
+  summary: "一个简单的五子棋网页小游戏，用来打发无意义的空档。"
+  tags: [Game, Web]
+  color: "linear-gradient(135deg, #22c55e 0%, #0ea5e9 45%, #6366f1 100%)"
+
+- title: "AgentFromPku"
+  url: "https://github.com/WindGraham/AgentFromPku"
+  summary: "以北大校园为舞台的情景游览游戏，可以和虚拟人物在不同场景里对话。"
+  tags: [Interactive Fiction, AI]
+  color: "linear-gradient(135deg, #22d3ee 0%, #6366f1 45%, #a855f7 100%)"
+
+- title: "PkumapVtour"
+  url: "https://example.com/pkumapvtour"
+  summary: "北大校园的虚拟漫游网站，内置 AI 导览和若干场景交互。"
+  tags: [Web, Virtual Tour, AI]
+  color: "linear-gradient(135deg, #fb923c 0%, #f97316 40%, #facc15 100%)"

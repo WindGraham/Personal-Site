@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="container">
+    <div class="header-left">
+      <a class="site-title" href="/">{{ site.title }}</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="切换明暗模式"></button>
+    </div>
+    <button id="nav-toggle" aria-label="切换导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li>
+          <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>
+            {{ item.label }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

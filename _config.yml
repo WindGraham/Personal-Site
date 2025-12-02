@@ -1,0 +1,38 @@
+title: "这是你的站点标题"
+email: "your-email@example.com"
+description: "这里填写你的网站简要介绍"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://your-domain.example.com"
+lang: "zh-CN"
+theme: minima
+permalink: /:categories/:year/:month/:day/:title/
+
+# Collections
+collections:
+  portfolio:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 12
+paginate_path: "/posts/page:num/"
+
+# Expose search index JSON
+exclude:
+  - node_modules
+  - vendor
+  - README.md
+
+# Author data file key
+author: default
