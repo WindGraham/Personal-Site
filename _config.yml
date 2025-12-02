@@ -1,8 +1,8 @@
 title: "这是你的站点标题"
 email: "your-email@example.com"
 description: "这里填写你的网站简要介绍"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://your-domain.example.com"
+url: "https://windgraham.github.io"
+baseurl: "/Personal-Site"
 lang: "zh-CN"
 theme: minima
 permalink: /:categories/:year/:month/:day/:title/
