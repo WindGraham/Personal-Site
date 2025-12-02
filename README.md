@@ -140,3 +140,52 @@ bundle exec jekyll build
 ---
 
 如果你在使用或定制过程中遇到问题，可以在 Issues 中反馈，或阅读 Jekyll 官方文档以获得更多高级用法。
+
+## 11. 作为模板 + GitHub Pages 一键使用说明
+
+如果你是从 GitHub 上点击 `Use this template` 创建了自己的仓库（例如 `yourname/your-site`），可以按下面步骤快速上线：
+
+1. **克隆你的新仓库到本地**
+
+	```bash
+	git clone git@github.com:yourname/your-site.git
+	cd your-site
+	```
+
+2. **修改基础信息**（最少需要改的）
+
+	- 打开 `_config.yml`：
+	  - 把 `title` 改成你的站点名
+	  - 把 `email` 改成你的邮箱
+	  - 把 `description` 改成一句话简介
+	  - 把 `url` 改成你的 GitHub Pages 主域名，例如：`"https://yourname.github.io"`
+	  - 把 `baseurl` 改成你的仓库名带前缀，例如：`"/your-site"`
+	- 打开 `_data/authors.yml`：
+	  - 填好 `name`、`affiliation`、`bio`、`github` 等字段
+
+3. **启用 GitHub Pages 部署**
+
+	1. 打开你新仓库的 GitHub 页面
+	2. 进入 `Settings -> Pages`
+	3. 在 **Build and deployment** 中选择：
+		- Source: `Deploy from a branch`
+		- Branch: `main`，Path: `/(root)`
+	4. 保存后等待 GitHub 自动构建
+
+4. **访问你的网站**
+
+	- 地址一般是：`https://yourname.github.io/your-site/`
+	- 首次构建可能需要几十秒，如果 2~3 分钟后还访问不到，可以到 `Actions` 里查看构建日志是否有错误
+
+5. **日常更新流程**
+
+	- 在本地修改 `_posts/`、页面或 `_data/`
+	- 提交并推送：
+
+	  ```bash
+	  git add .
+	  git commit -m "update content"
+	  git push
+	  ```
+
+	- 每次 push 到 `main` 后，GitHub Pages 会自动重新构建并更新线上页面。
