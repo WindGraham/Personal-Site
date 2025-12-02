@@ -2,7 +2,7 @@ title: "这是你的站点标题"
 email: "your-email@example.com"
 description: "这里填写你的网站简要介绍"
 url: "https://windgraham.github.io"
-baseurl: "/Personal-Site"
+baseurl: ""
 lang: "zh-CN"
 theme: minima
 permalink: /:categories/:year/:month/:day/:title/
